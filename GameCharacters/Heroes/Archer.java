@@ -54,5 +54,6 @@ public class Archer extends Hero{
         else{
             System.out.println("Can't use Special Move.");
         }
+        sc.close();
     }
 }
