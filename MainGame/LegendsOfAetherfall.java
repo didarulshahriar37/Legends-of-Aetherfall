@@ -87,8 +87,8 @@ public class LegendsOfAetherfall {
             }
 
             GameStats.displayStats(player, villain);
-        }
-
+        }        
         GameResults.displayResults(player, villain);
+        sc.close();
     }
 }
